@@ -1,5 +1,3 @@
-# By: Alexander Simeonov
-
 # Set up the environment
 
 # Makes sure package is not already installed and loaded before it loads it
