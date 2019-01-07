@@ -1,5 +1,3 @@
-# By: Alexander Simeonov
-
 # Set up the environment
 
 # Makes sure package is not already installed and loaded before it loads it
@@ -108,8 +106,6 @@ mh.homes <- mh.homes[which(mh.homes$outliers==0),]
 # Let us look and see if we still have outliers
 ggplot(mh.homes, aes(gross.sqft, sale.price.n)) + geom_point()
 ggplot(mh.homes, aes(log(gross.sqft), log(sale.price.n))) + geom_point()
-
-# This looks beautiful, we can now continue with our work!
 
 ################################################################################
 # Once the data is in good shape, conduct exploratory data analysis to visualize
