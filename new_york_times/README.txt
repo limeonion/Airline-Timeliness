@@ -1,5 +1,3 @@
-By: Alexander Simeonov
-
 To run the code and set up the environment:
 1. Place .csv files in a directory named "data_set" 
    residing in the same directory as the .r file.
